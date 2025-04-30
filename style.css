@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+header {
+
+    background: #000000;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; 
+    overflow: hidden;
+  
+}
+
+p {
+    font-family: "Doto", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff0000;
+    animation-name: scroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    padding-left: 100%;
+
+
+
+
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0%);
+
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
