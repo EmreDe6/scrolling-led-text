@@ -51,7 +51,7 @@ body {
     overflow: hidden; /* Essential for the marquee effect */
     white-space: nowrap; /* Prevents the inner text from wrapping */
     padding: 15px 0; /* Vertical padding inside the container */
-    border: 1px solid #cccccc;
+    border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 4px;
 }
