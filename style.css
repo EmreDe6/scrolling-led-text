@@ -58,7 +58,7 @@ body {
     display: inline-block; /* Key for single-line animation */
     font-size: 24px;
     padding-left: 100%; /* Starts the text content off-screen to the right */
-    animation-name: scroll-left-animation;
+    animation-name: scroll-text;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     will-change: transform; /* Hint for browser optimization */
