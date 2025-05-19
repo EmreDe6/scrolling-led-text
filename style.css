@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -55,6 +57,7 @@ body {
 }
 
 #scroll-text {
+      font-family: "Doto", sans-serif;
     display: inline-block; /* Key for single-line animation */
     font-size: 24px;
     padding-left: 100%; /* Starts the text content off-screen to the right */
